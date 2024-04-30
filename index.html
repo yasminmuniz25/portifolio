@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <!-- viewport é literalmente a tela que estamos utilizando para acessar  conteudo -->
+    <!-- rel= relação(entre o outro arquivo c esse), stylesheet= folha de estilo  -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+<body>
+   <header class="cabecalho"> <!-- menu da pagina, cabeçalho etc -->
+        <!-- nav: tag para inserir os links em que vc ira navegar na pagina -->
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+   </header>
+   <!-- o main é o elemento pai -->
+   <main class="apresentacao"> 
+    <section class="apresentacao__conteudo">
+    <!-- onde vao os titulos, paragrafos etc -->
+        <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque"> com um Front-end de qualidade!</strong></h1>
+        <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em <strong>React, HTML e CSS.</strong> Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+    <!-- o div está realiconado mais a divisão de um conteúdo mais "específico", n tanto semântico -->
+    <div class="apresentacao__links">
+        <h2 class="apresentacao__links_subtitulo">Acesse minhas redes:</h2>
+        <a class="apresentacao__links__navegacao" href="https://github.com/yasminmuniz25">
+            <img src="./assets/github (1).png">
+            Github
+        </a>
+        <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/yasminmuniz2504/">
+            <img src="./assets/linkedin.png">
+            Linkedin
+        </a>
+    </div>
+    </section>
+    <img class="apresentacao__imagem" src="./assets/Imagem (3).png" alt="Foto da Joana Santos programando">
+    </main>
+    <footer class="rodape"><!-- rodapé da página -->
+        <p>Desenvolvido por Alura.</p>
+    
+    </footer> 
+</body>
+</html>
